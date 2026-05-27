@@ -70,6 +70,42 @@ h2 {
     color: #ffffff;
 }
 
+.project-image {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.team-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00b37e;
+    margin-bottom: 15px;
+}
+
+.team-title {
+    text-align: center;
+    color: #00b37e;
+    margin-top: 20px;
+}
+
+.profile-logo {
+    width: 120px;          /* Controls how wide the logo is */
+    height: 120px;         /* Keeps it a perfect square so it rounds evenly */
+    object-fit: cover;     /* Prevents your image from stretching out of shape */
+    border-radius: 50%;    /* Turns the square image into a perfect circle */
+    border: 3px solid #00b37e; /* Adds a clean border matching your accent color */
+    margin-bottom: 15px;   /* Pushes your name down slightly so it's not crowded */
+}
+
 a {
     color: #00b37e;
     text-decoration: none;
