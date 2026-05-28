@@ -78,6 +78,20 @@ h2 {
     margin-bottom: 15px;
 }
 
+.hire-status {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.hiring {
+    background-color: #202024;
+    border: 1px solid #29292e;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
 .team-logo {
     display: block;
     margin-left: auto;
